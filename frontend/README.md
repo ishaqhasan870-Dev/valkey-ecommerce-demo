@@ -1,6 +1,6 @@
-# Valkey Commerce Frontend
+# VAL-HYD Frontend
 
-React 18 storefront built with Vite.
+React 18 storefront built with Vite, React Router, a modular commerce component structure, and the VAL-HYD product image system.
 
 ## Commands
 
@@ -16,5 +16,4 @@ npm test --workspace frontend
 VITE_API_URL=http://localhost:4000/api/v1
 ```
 
-The app is served on `http://localhost:3000` by default.
-
+The development app is served on `http://localhost:3000` by default.

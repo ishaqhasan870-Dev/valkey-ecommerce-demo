@@ -1,5 +1,5 @@
 {
-  "name": "valkey-commerce-platform",
+  "name": "val-hyd-commerce-platform",
   "version": "1.0.0",
   "private": true,
   "description": "Production-ready Valkey-powered ecommerce demo with React frontend and Express API.",

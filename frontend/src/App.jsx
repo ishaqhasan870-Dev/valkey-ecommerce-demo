@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
-import RouteScrollToTop from "./helper/RouteScrollToTop";
 import { CommerceApp } from "./commerce/CommerceApp";
+import RouteScrollToTop from "./commerce/components/RouteScrollToTop";
 import { CommerceProvider } from "./commerce/CommerceContext";
 import { ErrorBoundary } from "./commerce/ErrorBoundary";
 

@@ -15,12 +15,15 @@ flowchart LR
 
 ## Frontend
 
-- `frontend/src/commerce/CommerceApp.jsx`: route-preserving storefront UI.
+- `frontend/src/commerce/CommerceApp.jsx`: route shell that preserves legacy URLs while loading modern commerce pages.
+- `frontend/src/commerce/pages`: route-level screens for home, shop, product details, cart, checkout, account, wishlist, admin, and preserved content routes.
+- `frontend/src/commerce/components`: reusable product cards, galleries, skeletons, empty states, forms, and route scroll behavior.
+- `frontend/src/commerce/layout`: header and footer navigation shared across the storefront.
+- `frontend/src/commerce/utils` and `frontend/src/commerce/config`: shared formatting, image fallback handling, and brand configuration.
 - `frontend/src/commerce/CommerceContext.jsx`: auth, cart, wishlist, checkout, toasts, and API state.
 - `frontend/src/commerce/api.js`: API client with session id, auth token, and JSON error handling.
 - `frontend/src/commerce/commerce.css`: responsive UI system.
 - `frontend/public/assets/images/commerce`: local catalog render assets; each product has studio, angle, and lifestyle images for cards, hover states, and galleries.
-- Existing template pages remain in `frontend/src/pages` and `frontend/src/components`, but the upgraded app uses the new commerce shell.
 
 ## Backend
 

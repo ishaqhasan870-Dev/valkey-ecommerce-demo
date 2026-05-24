@@ -16,7 +16,7 @@ The original repository was a static Create React App storefront template with n
 
 ## Tech Stack
 
-- Frontend: React 18, Vite, React Router 6, Bootstrap base CSS, custom responsive CSS, Phosphor icons.
+- Frontend: React 18, Vite, React Router 6, modular commerce pages/components, custom responsive CSS, Phosphor icons.
 - Backend: Node.js, Express, Zod validation, Helmet, CORS, Morgan logging, bcryptjs, JWT.
 - Valkey: `valkey/valkey-bundle:9-alpine`.
 - Tooling: npm workspaces, Jest/React Testing Library, Node test runner, Supertest, Docker.
@@ -107,8 +107,7 @@ Current verification completed:
 - `npm test`
 - `npm run build --workspace frontend`
 - `npm run smoke --workspace backend` against a real Valkey container
-- Browser QA on `http://localhost:3001`
-- Mobile viewport QA at `390x844`
+- Browser QA on desktop and mobile viewports
 - Production dependency audit: `npm audit --omit=dev`
 
 ## Roadmap
